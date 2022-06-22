@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    font-family: monospace;
+    background-color: #fffbc2;
+}
+
+header{
+    background-color:#aa0010;
+    padding: 20px;
+}
+
+header h2{
+    color: #ffc82d;
+    text-align: center;
+}
+
+footer{
+    background-color: #aa0010;
+    padding: 40px;
+}
+
+footer li{
+    color: #ffc82d;
+}
+
+.div-product{
+    margin: auto;
+    width: 20%;
+}
+
+.div-product img{
+    width: 100%;
+    background-color: #ffc82d;
+}
+
+.container{
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 70%;
+    padding: 8px;
+    border-radius: 15px;
+    border: 2px solid #aa0010;
+}
+.div-title{
+    margin-bottom: 10px;
+    padding: 15px;
+    background-color: #aa0010;
+    border-radius: 15px;
+    
+}
+
+.div-title h2{
+    color: #ffc82d;
+    text-align: center;
+}
+
+.div-question{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    
+}
+
+.div-options{
+    
+    margin-top: 8px;
+    display: flex;
+    font-size: small;
+    border: 2px solid #aa0010;
+    border-radius: 25px;
+    padding: 5px;
+ }
+
+ .div-options label{
+    text-align: center;
+     margin-right: 66px;
+ }
+
+ .div-options button{
+     width: 100%;
+     background-color: #aa0010;
+     color: #ffc82d;
+     border-radius: 25px;
+     border: 2px solid #aa0010;
+     cursor: pointer;
+ }
+
+ .div-options button:hover{
+     background-color: #ffc82d;
+     color:#aa0010;
+ }
+
+ @media screen and (max-width: 650px){
+    .div-options{
+        display: block;
+    }
+    .div-options label{
+        margin-right: 0px;
+    }
+ }
