@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<script>
+    let qtdPEnt = 3, idade, procedencia, qtdCapital=0,
+    qtdMaior18 = 0
+    for(let i=1; i<=qtdPEnt; i++){
+      idade = parseInt(prompt('Digite a idade'))
+      procedencia = parseInt(prompt('0 - Capital\n1 - Interior\n2- Outro estado'))
+      
+      if(procedencia == 0)//vindos da capital
+        qtdCapital++
+      
+      if(idade >= 18)//contando a qtd maior e igual a 18
+        qtdMaior18++
+    }
+    let perc = (qtdMaior18*100)/qtdPEnt
+    console.log('Qtd de pessoas vindo da capital eh '+qtdC)
+
+</script>
+
+
+</head>
+<body>
+    
+</body>
+</html>
